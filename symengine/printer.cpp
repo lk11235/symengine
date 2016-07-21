@@ -125,12 +125,9 @@ void StrPrinter::bvisit(const Interval &x)
 
 void StrPrinter::bvisit(const EmptySet &x)
 {
-    str_ = "EmptySet";
-}
-
-void StrPrinter::bvisit(const UniversalSet &x)
-{
-    str_ = "UniversalSet";
+    std::ostringstream s;
+    s << "EmptySet";
+    str_ = s.str();
 }
 
 #ifdef HAVE_SYMENGINE_MPFR

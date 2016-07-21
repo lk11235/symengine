@@ -9,7 +9,8 @@
 
 #include <symengine/basic.h>
 #include <symengine/number.h>
-#include <symengine/mp_class.h>
+#include <gmpxx.h>
+#include <gmp.h>
 
 namespace SymEngine
 {
