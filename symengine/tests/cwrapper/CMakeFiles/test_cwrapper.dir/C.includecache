@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/icarus/Documents/Other/Research/Conformal Bootstrap/symengine/symengine/tests/cwrapper/test_cwrapper.c
+symengine/symengine_config.h
+-
+symengine/cwrapper.h
+-
+string.h
+-
+
+/usr/local/include/gmp.h
+iosfwd
+-
+cstdio
+-
+stddef.h
+-
+limits.h
+-
+
+symengine/cwrapper.h
+stdio.h
+-
+stdlib.h
+-
+gmp.h
+-
+symengine/type_codes.inc
+symengine/symengine/type_codes.inc
+
+symengine/symengine_config.h
+
+symengine/type_codes.inc
+
